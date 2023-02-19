@@ -1,0 +1,9 @@
+.btn-shipping {
+    width: 100%;
+    background: orange;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+    margin-top: 50px;
+}
+
+.cart-container {
+    background-color: rgba(255, 153, 0, 0.3);
+}
+
+.pagination {
+    margin: auto;
+    padding: 50px;
+}
+
+.pagination button {
+    margin-right: 10px;
+}
+
+.pagination .selected {
+    background-color: goldenrod;
+    border: gold;
+    font-weight: bold;
+
+}
+
+.review-order-btn {
+    width: 100%;
+    background: orange;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
